@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+  font-family: Tahoma, sans-serif; }
+
+.hidden {
+  display: none; }
+
+body {
+  background-image: linear-gradient(transparent, transparent), url("./images/blueBackground.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  margin: 0; }
+
+.container {
+  position: relative;
+  width: 80%;
+  height: 733px;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 1px 1px 10px #333; }
+
+.textBox {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  background-color: #333;
+  bottom: 122px;
+  opacity: .7; }
+  .textBox p {
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    padding-top: 36px; }
+
+header {
+  text-align: center;
+  height: 100px;
+  background-image: linear-gradient(transparent, transparent), url("./images/blueBackground.jpg");
+  box-shadow: 1px 1px 8px #333; }
+  header h1 {
+    margin: 0;
+    padding-top: 12px;
+    font-family: 'Monoton', cursive;
+    font-size: 48px;
+    text-shadow: 2px 2px 5px #025895;
+    color: #eee;
+    letter-spacing: 4px; }
+
+.surfers {
+  margin: 0 auto;
+  text-align: center;
+  background-image: linear-gradient(transparent, transparent), url("./images/homepageBackgroundCar.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 1px 1px 8px #333;
+  height: 600px;
+  width: 100%; }
+
+.surfer {
+  width: 23%;
+  margin-right: 6%;
+  padding-top: 7%;
+  display: inline-block;
+  vertical-align: top; }
+  .surfer:nth-child(3n) {
+    margin-right: 0; }
+  .surfer h2 {
+    color: #fff;
+    text-shadow: 2px 2px 5px #025895; }
+  .surfer img {
+    width: 100%;
+    height: 250px;
+    transition: .2s all ease-in-out; }
+  .surfer img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transform: skewX(5deg);
+    box-shadow: 2px 2px 20px #000; }
+
+.boards {
+  margin: 0 auto;
+  text-align: center;
+  background-image: linear-gradient(transparent, transparent), url("./images/surfBoardBackground.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 1px 1px 8px #333;
+  height: 600px;
+  width: 100%; }
+
+.board {
+  width: 23%;
+  margin-right: 6%;
+  padding-top: 7%;
+  display: inline-block;
+  vertical-align: top; }
+  .board:nth-child(3n) {
+    margin-right: 0; }
+  .board h2 {
+    color: #fff;
+    text-shadow: 2px 2px 5px #025895; }
+  .board img {
+    width: 100%;
+    height: 250px;
+    transition: .3s all ease-in-out; }
+  .board img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transform: skewX(5deg);
+    box-shadow: 2px 2px 20px #000; }
+
+.location {
+  background-image: linear-gradient(rgba(50, 50, 50, 0.1), rgba(50, 50, 50, 0.1)), url("./images/locationBackgroundCar.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 1px 1px 8px #333;
+  height: 600px;
+  text-align: center; }
+
+.surfSpot {
+  width: 23%;
+  margin-right: 6%;
+  padding-top: 7%;
+  display: inline-block;
+  vertical-align: top; }
+  .surfSpot:nth-child(3n) {
+    margin-right: 0; }
+  .surfSpot h2 {
+    color: #fff;
+    text-shadow: 2px 2px 5px #025895; }
+  .surfSpot img {
+    width: 100%;
+    height: 250px;
+    transition: .3s all ease-in-out; }
+  .surfSpot img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transform: skewX(5deg);
+    box-shadow: 2px 2px 20px #000; }
+
+button {
+  position: relative;
+  bottom: 100px;
+  opacity: 0; }
+
+.pipeline {
+  background-image: linear-gradient(rgba(50, 50, 50, 0.1), rgba(50, 50, 50, 0.1)), url("./images/pipeline.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 1px 1px 8px #333;
+  height: 600px; }
+
+.teahupoo {
+  background-image: linear-gradient(rgba(50, 50, 50, 0.1), rgba(50, 50, 50, 0.1)), url("./images/teahupoo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 1px 1px 8px #333;
+  height: 600px; }
+
+.jBay {
+  background-image: linear-gradient(rgba(50, 50, 50, 0.1), rgba(50, 50, 50, 0.1)), url("./images/jbay.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 1px 1px 8px #333;
+  height: 600px; }

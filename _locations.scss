@@ -1,0 +1,68 @@
+.location {
+  background-image: linear-gradient(rgba(50, 50, 50, 0.1), rgba(50, 50, 50, 0.1)), url("./images/locationBackgroundCar.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 1px 1px 8px #333;
+  height: 600px;
+  text-align: center;
+}
+
+.surfSpot {
+  width: 23%;
+  margin-right: 6%;
+  padding-top: 7%;
+  display: inline-block;
+  vertical-align: top;
+  &:nth-child(3n) {
+    margin-right: 0;
+  }
+  h2 {
+    color: #fff;
+    text-shadow: 2px 2px 5px #025895;
+  }
+  img {
+    width: 100%;
+    height: 250px;
+    transition: .3s all ease-in-out;
+  }
+  img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transform: skewX(5deg);
+    box-shadow: 2px 2px 20px #000;
+  }
+}
+
+button {
+  position: relative;
+  bottom: 100px;
+  opacity: 0;
+}
+
+.pipeline {
+  background-image: linear-gradient(rgba(50, 50, 50, 0.1), rgba(50, 50, 50, 0.1)), url("./images/pipeline.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 1px 1px 8px #333;
+  height: 600px;
+}
+
+.teahupoo {
+  background-image: linear-gradient(rgba(50, 50, 50, 0.1), rgba(50, 50, 50, 0.1)), url("./images/teahupoo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 1px 1px 8px #333;
+  height: 600px;
+}
+
+.jBay {
+  background-image: linear-gradient(rgba(50, 50, 50, 0.1), rgba(50, 50, 50, 0.1)), url("./images/jbay.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 1px 1px 8px #333;
+  height: 600px;
+}

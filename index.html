@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SurfGame</title>
+    <link href='https://fonts.googleapis.com/css?family=Monoton' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="main.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Surf's Up!</h1>
+      </header>
+      <div class="surfers">
+        <div class="surfer kelly"><img src="./images/slaterCar.jpg" alt="" /><h2>Kelly Slater</h2></div>
+        <div class="surfer laird"><img src="./images/lairdCartoon.jpg" alt="" /><h2>Laird Hamilton</h2></div>
+        <div class="surfer mick"><img src="./images/mickFanningCar.jpg" alt="" /><h2>Mick Fanning</h2></div>
+      </div>
+
+      <div class="boards hidden">
+        <div class="board short"><img src="./images/shortBoard.png" alt="" /><h2>Short Board</h2></div>
+        <div class="board long"><img src="./images/shortBoard.png" alt="" /><h2>Long Board</h2></div>
+        <div class="board boogie"><img src="./images/shortBoard.png" alt="" /><h2>Boogie Board</h2></div>
+      </div>
+      <div class="location hidden">
+        <div class="surfSpot jbayThumb"><img src="./images/jbay.jpg" alt="" /><h2>J Bay</h2></div>
+        <div class="surfSpot pipelineThumb"><img src="./images/pipeline.jpg" alt="" /><h2>Pipeline</h2></div>
+        <div class="surfSpot teahupooThumb"><img src="./images/teahupoo.jpg" alt="" /><h2>Teahupoo</h2></div>
+      </div>
+      <div class="surf hidden">
+        <div class="pipeline hidden"></div>
+        <div class="teahupoo hidden"></div>
+        <div class="jBay hidden"></div>
+      </div>
+      <button type="button" name="button">Surf!</button>
+      <div class="textBox">
+        <p>Choose a surfer to start!</p>
+      </div>
+  </div>
+  <!-- <footer>
+    <h3>Copyright 2016</h3>
+  </footer> -->
+
+    <script src="bower_components/jquery/dist/jquery.js" charset="utf-8"></script>
+    <script src="bower_components/underscore/underscore.js" charset="utf-8"></script>
+    <script src="surf.js" charset="utf-8"></script>
+  </body>
+</html>
