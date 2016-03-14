@@ -25,7 +25,7 @@ body {
   width: 100%;
   height: 100px;
   background-color: #333;
-  bottom: 122px;
+  bottom: 142px;
   opacity: .7; }
   .textBox p {
     color: #fff;
@@ -143,8 +143,20 @@ header {
 
 button {
   position: relative;
-  bottom: 100px;
-  opacity: 0; }
+  bottom: 131px;
+  left: 10px;
+  opacity: 0;
+  width: 10%;
+  height: 25px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: none;
+  box-shadow: 1px 1px 10px #333;
+  outline: none; }
+  button:hover {
+    cursor: pointer;
+    background-color: #76BBE5;
+    box-shadow: 1px 1px 20px #333; }
 
 .pipeline {
   background-image: linear-gradient(rgba(50, 50, 50, 0.1), rgba(50, 50, 50, 0.1)), url("./images/pipeline.jpg");

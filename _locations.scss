@@ -36,8 +36,21 @@
 
 button {
   position: relative;
-  bottom: 100px;
+  bottom: 131px;
+  left: 10px;
   opacity: 0;
+  width: 10%;
+  height: 25px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: none;
+  box-shadow: 1px 1px 10px #333;
+  outline: none;
+  &:hover {
+    cursor: pointer;
+    background-color: #76BBE5;
+    box-shadow: 1px 1px 20px #333;
+  }
 }
 
 .pipeline {
